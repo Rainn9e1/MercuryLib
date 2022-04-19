@@ -918,6 +918,10 @@ function Library:create(options)
 	})
 
 	rawset(mt, "creditsContainer", creditsTab.container)
+    
+    creditsTab:credit{Name = "Rainn", Description = "White Hat Owner", Discord = "Rainn#7813", V3rmillion = "None"}
+	creditsTab:credit{Name = "Lay", Description = "White Hat Owner", Discord = "Lay.#9994", V3rmillion = "None"}
+    creditsTab:credit{Name = "Typicalusername", Description = "White Hat Owner", Discord = "typicalusername#1444", V3rmillion = "None"}
 
 	creditsTab:credit{Name = "Abstract", Description = "UI Library Developer", Discord = "Abstract#8007", V3rmillion = "AbstractPoo"}
 	creditsTab:credit{Name = "Deity", Description = "UI Library Developer", Discord = "Deity#0228", V3rmillion = "0xDEITY"}
